@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 5012
 const cors = require("cors")
 const mongoose = require("mongoose")
 const userRoute = require("./routes/user")
+const authRoute = require("./routes/auth")
 
 mongoose
   .connect(process.env.MONGODB_URI, {
@@ -30,6 +31,7 @@ app.get("/api/test", function (req, res) {
   res.send("API looks good! 🚀")
 })
 
+app.use("/api/auth", authRoute)
 app.use("/api/users", userRoute)
 
 app.listen(PORT, () => {
