@@ -6,6 +6,7 @@ const app = express()
 const PORT = process.env.PORT || 5012
 const cors = require("cors")
 const mongoose = require("mongoose")
+const userRoute = require("./routes/user")
 
 mongoose
   .connect(process.env.MONGODB_URI, {
@@ -25,9 +26,11 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(express.static("public"))
 
-app.get("/", function (req, res) {
-  res.send("hello, world!")
+app.get("/api/test", function (req, res) {
+  res.send("API looks good! 🚀")
 })
+
+app.use("/api/users", userRoute)
 
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT} 🍺`)
