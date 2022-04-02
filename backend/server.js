@@ -3,8 +3,8 @@ require("dotenv").config()
 const express = require("express")
 const morgan = require("morgan")
 const app = express()
-const PORT = process.env.PORT || 5012
 const cors = require("cors")
+const PORT = process.env.PORT || 5012
 const mongoose = require("mongoose")
 const userRoute = require("./routes/user")
 const authRoute = require("./routes/auth")
@@ -40,7 +40,7 @@ app.use("/api/users", userRoute)
 app.use("/api/products", productRoute)
 app.use("/api/carts", cartRoute)
 app.use("/api/orders", orderRoute)
-app.use("/api/stripe", stripeRoute)
+app.use("/api/checkout", stripeRoute)
 
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT} 🍺`)
