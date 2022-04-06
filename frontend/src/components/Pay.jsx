@@ -4,8 +4,8 @@ import { userRequest } from './requestMethods';
 import StripeCheckout from 'react-stripe-checkout';
 // import axios from 'axios';
 
-const KEY = "pk_test_p9059T8N5A6S3maZiZnBKm3300dvrbvn5v"
-// const KEY = process.env.REACT_APP_STRIPE
+// const KEY = "pk_test_p9059T8N5A6S3maZiZnBKm3300dvrbvn5v"
+const KEY = process.env.REACT_APP_STRIPE
 
 const Pay = () => {
   const [stripeToken, setStripeToken] = useState(null);
