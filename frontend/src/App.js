@@ -1,6 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Pay from "./components/Pay"
-import Success from "./components/Success"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
+import Projects from "./pages/Projects"
+import Shop from "./pages/Shop"
+
 import "./App.css"
 
 function App() {
@@ -11,8 +15,11 @@ function App() {
       </div>
       <Router>
         <Routes>
-          <Route path="/Pay" element={<Pay />} />
-          <Route path="/Success" element={<Success />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/shop" element={<Shop />} />
         </Routes>
       </Router>
     </>
