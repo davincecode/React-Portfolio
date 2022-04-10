@@ -1,5 +1,5 @@
 import React from "react"
-import { ContainerWrapper, SectionTitle } from "styles/GlobalStyles"
+import { ContainerWrapper, SectionTitle } from "Styles/GlobalStyles"
 
 export default function index() {
   return (

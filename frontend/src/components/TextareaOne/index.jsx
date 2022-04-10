@@ -4,7 +4,7 @@ import {
   SectionH2,
   SectionContainer,
   SectionPadding,
-} from "styles/GlobalStyles"
+} from "Styles/GlobalStyles"
 
 export default function index() {
   return (

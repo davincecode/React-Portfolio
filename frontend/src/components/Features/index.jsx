@@ -5,7 +5,7 @@ import {
   Button,
   WrapperOne,
   ItemCenter,
-} from "styles/GlobalStyles"
+} from "Styles/GlobalStyles"
 
 export default function index() {
   const styles = {

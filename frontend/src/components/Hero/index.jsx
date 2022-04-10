@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { HeroContainer, HeroElements, Button } from "styles/GlobalStyles"
+import { HeroContainer, HeroElements, Button } from "Styles/GlobalStyles"
 
 export default function Index() {
   return (

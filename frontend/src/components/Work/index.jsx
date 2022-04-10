@@ -8,7 +8,7 @@ import {
   CenteredTitle,
   DivColumn,
   SectionTitle,
-} from "styles/GlobalStyles"
+} from "Styles/GlobalStyles"
 
 const index = () => {
   return (

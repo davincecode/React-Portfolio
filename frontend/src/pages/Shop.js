@@ -1,5 +1,5 @@
 import React from "react"
 
-export default function Shop() {
-  return <div>Shop</div>
+export default function shop() {
+  return <div>shop</div>
 }
