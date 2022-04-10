@@ -42,6 +42,10 @@ app.use("/api/carts", cartRoute)
 app.use("/api/orders", orderRoute)
 app.use("/api/checkout", stripeRoute)
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("frontend/build"))
+}
+
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT} 🍺`)
 })

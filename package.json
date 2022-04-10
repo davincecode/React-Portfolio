@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node backend/server.js",
+    "build": "cd frontend && npm run build",
+    "install-client": "cd frontend && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently -n 'server,client' \"npm run server\" \"npm run client\""
+    "dev": "concurrently -n 'server,client' -c 'red,green' \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
