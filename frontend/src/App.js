@@ -1,27 +1,33 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import Projects from "./pages/Projects"
-import Shop from "./pages/Shop"
+import React, { useEffect } from "react"
+import Navbar from "components/Navbar"
+import Footers from "components/Footers"
+import "aos/dist/aos.css"
+import Aos from "aos"
+import "index.css"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import About from "pages/About"
+import Latest from "pages/Projects"
+import Shop from "pages/Shop"
+import Contact from "pages/Contact"
+import Home from "pages/Home"
 
-import "./App.css"
-
-function App() {
+const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 3000 })
+  }, [])
   return (
     <>
-      <div className="App">
-        <h1>HELLO WORLD</h1>
-      </div>
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/latest" element={<Latest />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+      <Footers />
     </>
   )
 }

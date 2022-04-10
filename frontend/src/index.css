@@ -1,3 +1,41 @@
 @tailwind base;
+html {
+  scroll-behavior: smooth;
+}
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "miller";
+    src: url("../public/fonts/SVN-Miller-Banner.woff2") format("woff2"),
+      url("../public/fonts/SVN-Miller-Banner.woff") format("woff");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "miller-light";
+    src: url("../public/fonts/Miller-Banner-Light.woff") format("woff");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "miller-italic";
+    src: url("../public/fonts/SVN-Miller-Banner-Italic.woff2") format("woff2"),
+      url("../public/fonts/SVN-Miller-Banner-Italic.woff") format("woff");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "miller-italic-light";
+    src: url("../public/fonts/Miller-Banner-Light-Italic.woff") format("woff");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Grotesk-light";
+    src: url("../public/fonts/HK-Grotesk-Light.woff2") format("woff2");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Grotesk-Regular";
+    src: url("../public/fonts/HK-Grotesk-Regular.woff2") format("woff2");
+    font-style: normal;
+  }
+}
