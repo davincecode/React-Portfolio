@@ -1,12 +1,12 @@
 import React from "react"
 import Contact from "components/Forms/Contact"
-import Projects from "components/Projects"
+import Data from "../Data"
 
 export default function contact() {
   return (
     <>
       <Contact />
-      <Projects />
+      <Data />
     </>
   )
 }
