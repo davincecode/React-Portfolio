@@ -13,8 +13,8 @@ export default function index() {
         <SectionContainer>
           <SectionPadding>
             <SectionH2 data-aos="fade-up">
-              Having to with clients on web projects from ideation to launch, I
-              have valuable experience in the design and development process.
+              Having to work with clients on web projects from ideation to launch, I
+              have valuable experience in the web design and full stack development process.
             </SectionH2>
           </SectionPadding>
         </SectionContainer>

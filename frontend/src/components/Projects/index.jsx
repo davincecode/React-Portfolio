@@ -1,10 +1,10 @@
 import React from "react"
 
-export default function Projects(props) {
+export default function Projects({image}) {
   return (
     <>
       <div data-aos="fade-up" data-aos-delay="2000">
-          <img src={ props.image } alt="gallery" width="200px" />
+          <img src={ image } alt="gallery" width="200px" />
       </div>
     </>
   )

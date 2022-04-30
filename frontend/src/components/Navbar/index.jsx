@@ -8,7 +8,7 @@ const index = () => {
     <>
       <NavContainer>
         <LeftNav>
-          <Link to="/">XVIEW COLLECTIVE</Link>
+          <Link to="/">DAVINCECODE</Link>
         </LeftNav>
         <RigthNav>
           <NavLinks>
