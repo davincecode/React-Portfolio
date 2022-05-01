@@ -4,9 +4,7 @@ import styled from "styled-components"
 import tw from "twin.macro"
 
 /////////////////////////// CONTENT CONTAINERS ///////////////////////////
-export const FullContainer = styled.div`
-  ${tw``}
-`
+
 export const SectionBGcool = styled.div`
   ${tw`bg-[#e0e4e3]`}
 `
@@ -49,7 +47,7 @@ export const RigthNav = styled.div`
 `
 
 ///////////////////////////// HERO COMPONENTS /////////////////////////////
-export const HeroContainer = styled.div`
+export const FullContainer = styled.div`
   ${tw`w-full flex flex-col bg-[#eeede8]`}
 `
 export const HeroElements = styled.div`

@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react"
-import { HeroContainer, HeroElements, Button } from "Styles/GlobalStyles"
+import { FullContainer, HeroElements, Button } from "Styles/GlobalStyles"
 
 export default function About() {
   return (
     <>
-      <HeroContainer>
+      <FullContainer>
         <HeroElements>
           <img className="w-[500px] " src="/images/motor.jpg" />
 
@@ -25,7 +25,7 @@ export default function About() {
             </div>
           </div>
         </HeroElements>
-      </HeroContainer>
+      </FullContainer>
     </>
   )
 }

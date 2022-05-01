@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { HeroContainer, HeroElements, Button } from "Styles/GlobalStyles"
+import { FullContainer, HeroElements, Button } from "Styles/GlobalStyles"
 
 export default function Index() {
   return (
     <>
-      <HeroContainer>
+      <FullContainer>
         <HeroElements>
 
           <img className="w-[500px] " src="/images/laptop.jpg" data-aos="fade" />
@@ -24,7 +24,7 @@ export default function Index() {
             src="/images/off-image.jpg"
           /> */}
         </HeroElements>
-      </HeroContainer>
+      </FullContainer>
     </>
   )
 }
