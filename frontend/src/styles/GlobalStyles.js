@@ -42,7 +42,7 @@ export const MobileLinks = styled.div`
   ${tw`flex flex-col items-center justify-center tracking-widest md:hidden`}
 `
 export const LeftNav = styled.div`
-  ${tw`text-3xl font-millerLight items-center flex justify-center`}
+  ${tw`text-2xl font-millerLight items-center flex justify-center`}
 `
 export const RigthNav = styled.div`
   ${tw`flex flex-row text-sm font-millerLight items-center justify-center`}
