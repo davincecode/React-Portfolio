@@ -10,7 +10,7 @@ export default function index() {
           <ul className="flex flex-col flex-wrap justify-center pb-8 text-lg md:flex-row">
             <li className="w-full my-12 md:w-1/3 lg:w-1/3">
               <div className="text-center">
-                <h2 className="mb-4 text-3xl text-white uppercase md:text-md font-millerLight">
+                <h2 className="mb-4 text-2xl text-white uppercase md:text-md font-millerLight">
                   SUBSCRIBE
                 </h2>
                 <p className=" font-GroteskLight">
@@ -40,7 +40,7 @@ export default function index() {
             </li>
             <li className="w-full my-12 md:w-1/3 lg:w-1/3">
               <div className="text-center">
-                <h2 className="mb-4 text-3xl uppercase md:text-md font-millerLight">
+                <h2 className="mb-4 text-2xl uppercase md:text-md font-millerLight">
                   FIND ME
                 </h2>
                 <ul>
@@ -61,8 +61,8 @@ export default function index() {
             </li>
             <li className="w-full my-12 md:w-1/3 lg:w-1/3">
               <div className="text-center">
-                <h2 className="mb-4 text-3xl uppercase md:text-md font-millerLight">
-                  CHECK MY OTHER WORK HERE
+                <h2 className="mb-4 text-2xl uppercase md:text-md font-millerLight">
+                  OTHER WORK
                 </h2>
                 <ul>
                   <li className="mb-4 tracking-normal font-GroteskLight">

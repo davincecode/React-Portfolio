@@ -9,18 +9,20 @@ export default function About() {
         <HeroElements>
           <img className="w-[500px] " src="/images/motor.jpg" />
 
-          <div className="flex-wrap items-center justify-center w-full p-8 text-lg tracking-wide md:w-2/5 md:text-xl font-millerLight md:leading-loose">
-            <h1 className="mt-8 text-2xl font-millerLight ">
-              Welcome to my humble website!
+          <div className="flex-wrap items-center justify-center w-full p-8 text-xl tracking-wide md:w-2/5 md:text-lg font-millerLight md:leading-loose">
+            <h1 className="mt-8 text-3xl font-millerItalic ">
+              Thanks for being here!
             </h1>
             <br />
             My name is Vince! I'm a full-stack web developer with a passion for
-            building and designing beautiful, responsive websites. If you're
-            interested in working together, please reach out! I'd love to chat
-            about your next project.
-            <a href="#one">
-              <Button>LEARN MORE</Button>
-            </a>
+            building and designing beautiful, responsive websites.
+            <div className="mt-4">
+              If you're interested in working together, please reach out!
+              <br /> I'd love to chat about your next project.
+              <a href="/recent">
+                <Button>RECENT WORK</Button>
+              </a>
+            </div>
           </div>
         </HeroElements>
       </HeroContainer>

@@ -13,7 +13,7 @@ const index = () => {
         <RigthNav>
           <NavLinks>
             <Link to="/about">ABOUT</Link>
-            <Link to="/latest">LATEST</Link>
+            <Link to="/recent">RECENT WORK</Link>
             <Link to="/shop">SHOP</Link>
             <Link to="/contact">CONTACT</Link>
           </NavLinks>

@@ -6,7 +6,7 @@ import Aos from "aos"
 import "index.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import About from "pages/About"
-import Latest from "pages/Latest"
+import Recent from "pages/Recent"
 import Shop from "pages/Shop"
 import Contact from "pages/Contact"
 import Home from "pages/Home"
@@ -22,7 +22,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/latest" element={<Latest />} />
+          <Route path="/recent" element={<Recent />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

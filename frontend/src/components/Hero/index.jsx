@@ -15,7 +15,7 @@ export default function Index() {
               <span className=" font-millerItalic">Simplicity</span> and
               <span className=" font-millerItalic"> Function.</span>
             </div>
-            <a href="#one">
+            <a href="/about">
               <Button>LEARN MORE</Button>
             </a>
           </div>
