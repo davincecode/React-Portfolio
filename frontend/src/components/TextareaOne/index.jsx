@@ -3,7 +3,7 @@ import {
   SectionBGwarm,
   SectionH2,
   SectionContainer,
-  SectionPadding, Button
+  SectionPadding,
 } from "Styles/GlobalStyles"
 
 export default function index() {
@@ -12,7 +12,7 @@ export default function index() {
       <SectionBGwarm>
         <SectionContainer>
           <SectionPadding>
-            <SectionH2 data-aos="fade-up">
+            <SectionH2 data-aos="fade-up" className='text-white'>
               Having to work with clients on web projects from ideation to launch, I
               have valuable experience in the web design and full stack development process.
               
