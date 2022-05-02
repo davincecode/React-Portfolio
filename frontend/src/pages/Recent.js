@@ -10,7 +10,7 @@ import {
   H2Left,
   DividerCol,
   DividerRow,
-} from "Styles/GlobalStyles"
+} from "../styles/GlobalStyles"
 
 export default function recent() {
   return (

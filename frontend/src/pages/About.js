@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react"
-import { FullContainer, HeroElements, Button } from "Styles/GlobalStyles"
+import { FullContainer, HeroElements, Button } from "../styles/GlobalStyles"
 
 export default function About() {
   return (

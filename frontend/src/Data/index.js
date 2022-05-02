@@ -1,6 +1,6 @@
 import React from "react"
 import Projects from "components/Projects"
-import { ContainerWrapper, SectionTitle } from "Styles/GlobalStyles"
+import { ContainerWrapper, SectionTitle } from "../styles/GlobalStyles"
 
 export default function index() {
   return (
