@@ -47,6 +47,9 @@ export const DividerCol = styled.div`
 export const DividerRow = styled.div`
   ${tw` px-4`}
 `
+export const HorizontalDivider = styled.div`
+  ${tw`flex items-center justify-between w-full mx-auto my-4 border-t border-gray-300`}
+`
 
 ////////////////////////// WRAPPERS NO-BG-COLOR //////////////////////////
 export const WrapperOne = styled.div`

@@ -84,16 +84,16 @@ export default function index() {
           <hr className="flex items-center justify-between w-full pt-8 mx-auto border-t border-white" />
           <div className="flex items-center justify-between max-w-xs mx-auto ">
             <a href="https://www.facebook.com/vincentybanezphotography">
-            <i class="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-facebook"></i>
             </a>
             <a href="https://twitter.com/vncntybnz">
-            <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter"></i>
             </a>
             <a href="https://github.com/davincecode">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/vincent-ybanez-b90056b5">
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
             </a>
             
           </div>
