@@ -14,8 +14,7 @@ export default function index() {
                   SUBSCRIBE
                 </h2>
                 <p className=" font-GroteskLight">
-                  Join our mailing list to be the first<br />
-                  to hear about our promotions!
+                  Join our mailing list to be the first to hear about our promotions!
                 </p>
                 
                 
@@ -44,16 +43,16 @@ export default function index() {
                 </h2>
                 <ul>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="https://github.com/davincecode">Github</a>
+                    <a href="https://github.com/davincecode" target="_blank" rel="noreferrer" >Github</a>
                   </li>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="https://www.linkedin.com/in/vincent-ybanez-b90056b5">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/vincent-ybanez-b90056b5" target="_blank" rel="noreferrer" >LinkedIn</a>
                   </li>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="https://www.instagram.com/vincentybanezphoto/">Instagram</a>
+                    <a href="https://www.instagram.com/vincentybanezphoto/" target="_blank" rel="noreferrer" >Instagram</a>
                   </li>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="https://www.facebook.com/vincentybanezphotography">Facebook</a>
+                    <a href="https://www.facebook.com/vincentybanezphotography" target="_blank" rel="noreferrer" >Facebook</a>
                   </li>
                 </ul>
               </div>
@@ -65,13 +64,13 @@ export default function index() {
                 </h2>
                 <ul>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="http://vincentybanez.com">Professional wedding Photography</a>
+                    <a href="http://vincentybanez.com" target="_blank" rel="noreferrer" >Professional wedding Photography</a>
                   </li>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="http://storygridfilms.com">Professional Wedding Cinematography</a>
+                    <a href="http://storygridfilms.com" target="_blank" rel="noreferrer" >Professional Wedding Cinematography</a>
                   </li>
                   <li className="mb-4 tracking-normal font-GroteskLight">
-                    <a href="https://sheephostingbay.com/">Get your Domain and Hosting</a>
+                    <a href="https://sheephostingbay.com/" target="_blank" rel="noreferrer" >Get your Domain and Hosting</a>
                   </li>
                   <br />
                   <li className="mb-4 tracking-normal font-GroteskLight">
@@ -83,16 +82,16 @@ export default function index() {
           </ul>
           <hr className="flex items-center justify-between w-full pt-8 mx-auto border-t border-white" />
           <div className="flex items-center justify-between max-w-xs mx-auto ">
-            <a href="https://www.facebook.com/vincentybanezphotography">
+            <a href="https://www.facebook.com/vincentybanezphotography" target="_blank" rel="noreferrer" >
             <i className="fa-brands fa-facebook"></i>
             </a>
-            <a href="https://twitter.com/vncntybnz">
+            <a href="https://twitter.com/vncntybnz" target="_blank" rel="noreferrer" >
             <i className="fa-brands fa-twitter"></i>
             </a>
-            <a href="https://github.com/davincecode">
+            <a href="https://github.com/davincecode" target="_blank" rel="noreferrer" >
             <i className="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/vincent-ybanez-b90056b5">
+            <a href="https://www.linkedin.com/in/vincent-ybanez-b90056b5" target="_blank" rel="noreferrer" >
             <i className="fa-brands fa-linkedin-in"></i>
             </a>
             

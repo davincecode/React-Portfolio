@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
+import { Link } from 'react-router-dom';
 import { FullContainer, HeroElements, Button } from "../../styles/GlobalStyles"
 
 export default function Index() {
@@ -15,9 +16,9 @@ export default function Index() {
               <span className=" font-millerItalic">Simplicity</span> and
               <span className=" font-millerItalic"> Function.</span>
             </div>
-            <a href="/about">
+            <Link to="/about">
               <Button>LEARN MORE</Button>
-            </a>
+            </Link>
           </div>
           {/* <img
             className="w-[450px] absolute right-8 top-2/4"

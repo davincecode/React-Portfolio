@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react"
+import { Link } from "react-router-dom"
 import { FullContainer, HeroElements, Button } from "../styles/GlobalStyles"
 
 export default function About() {
@@ -7,9 +8,9 @@ export default function About() {
     <>
       <FullContainer>
         <HeroElements>
-          <img className="w-[500px] " src="/images/motor.jpg" />
+          <img className="w-[500px] md:w-[350px] " src="/images/motor.jpg" />
 
-          <div className="flex-wrap items-center justify-center w-full p-8 text-xl tracking-wide md:w-2/5 md:text-lg font-millerLight md:leading-loose">
+          <div className="flex-wrap items-center justify-center w-full p-8 text-xl tracking-wide md:p-0 md:w-2/5 md:text-lg font-millerLight md:leading-loose">
             <h1 className="mt-8 text-3xl font-millerItalic ">
               Thanks for being here!
             </h1>
@@ -19,9 +20,9 @@ export default function About() {
             <div className="mt-4">
               If you're interested in working together, please reach out!
               <br /> I'd love to chat about your next project.
-              <a href="/recent">
+              <Link to="/recent">
                 <Button>RECENT WORK</Button>
-              </a>
+              </Link>
             </div>
           </div>
         </HeroElements>

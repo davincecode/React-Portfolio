@@ -1,17 +1,18 @@
 import React from 'react' 
 import projectsList from 'Data/projectsList';
-import {FullContainer, SectionH2, TwoColContainer, SectionWrapper, LeftCol, RightCol, DividerRow, DividerCol, H2Left} from 'styles/GlobalStyles';
+import {FullContainer, TwoColContainer, SectionWrapper, LeftCol, RightCol, DividerRow, DividerCol, H2Left} from 'styles/GlobalStyles';
+import { Link } from 'react-router-dom';
 
 export const Projects = () => {
   return (
-    
     
     projectsList.map((props, index) => {
       const {title, image, description, stack, link1, link2} = props;  
 
         return (
           <>
-            <FullContainer className="project" key={ index }>
+            <div key={index}>
+            <FullContainer>
                 <TwoColContainer>
                   <SectionWrapper>
                     <LeftCol>
@@ -24,21 +25,23 @@ export const Projects = () => {
                           <p className='mt-2'>Tech Stack: <i>{ stack }</i></p>
                             <hr className="flex items-center justify-between w-full mx-auto my-4 border-t border-neutral-300 " />
                         <div className="flex justify-start gap-x-8">
-                          <a href={ link1 } target="_blank" rel="noreferrer">
-                            <i class="fa-solid fa-globe"></i>
-                              </a>
-                              <a href={ link2 } target="_blank" rel="noreferrer">
-                            <i class="fa-brands fa-github"></i>
-                          </a>
+                          <Link to={ link1 } target="_blank" rel="noreferrer">
+                            <i className="fa-solid fa-globe"></i>
+                              </Link>
+                              <Link to={ link2 } target="_blank" rel="noreferrer">
+                            <i className="fa-brands fa-github"></i>
+                          </Link>
                         </div>
                     </RightCol>
                   </SectionWrapper>
                 </TwoColContainer>
               <DividerCol />
             </FullContainer>
+            </div>
           </>
         )
       })
+      
    
   );
 }

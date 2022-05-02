@@ -1,29 +1,75 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react"
-import { NavContainer, LeftNav, RigthNav, NavLinks } from "../../styles/GlobalStyles"
-import { Link } from "react-router-dom"
+import { useState } from "react";
+import { Link } from 'react-router-dom';
+import { NavContainer, LeftNav, RigthNav, NavLinks } from "styles/GlobalStyles"
+import "./index.css"
 
+export default function Header() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-const Navbar = () => {
-  
   return (
-    <>
-      <NavContainer>
-        <LeftNav>
+    <NavContainer>
+    <LeftNav>
           <Link to="/">DAVINCECODE</Link>
         </LeftNav>
-        <RigthNav>
-          <NavLinks>
+      <nav>
+        <section className="flex MOBILE-MENU md:hidden">
+          <div
+            className="space-y-2 HAMBURGER-ICON"
+            onClick={() => setIsNavOpen((prev) => !prev)}
+          >
+            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+            <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+          </div>
+
+          <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+            <div
+              className="absolute top-0 right-0 px-8 py-8"
+              onClick={() => setIsNavOpen(false)}
+            >
+              <svg
+                className="w-8 h-8 text-gray-600"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+
+            {/* Mobile */}
+            <RigthNav>
+            <ul className="">
+              <li className="my-8 uppercase font-millerLight">
+                <Link to="/about">ABOUT</Link>
+              </li>
+              <li className="my-8 uppercase font-millerLight">
+                <Link to="/recent">RECENT WORK</Link>
+              </li>
+              <li className="my-8 uppercase font-millerLight">
+                <Link to="/shop">SHOP</Link>
+              </li>
+              <li className="my-8 uppercase font-millerLight">
+                <Link to="/contact">CONTACT</Link>
+              </li>
+              </ul>
+              </RigthNav>
+          </div>
+        </section>
+
+        {/* Desktop */}
+        <NavLinks className="hidden space-x-8 DESKTOP-MENU lg:flex">
             <Link to="/about">ABOUT</Link>
             <Link to="/recent">RECENT WORK</Link>
             <Link to="/shop">SHOP</Link>
             <Link to="/contact">CONTACT</Link>
-          </NavLinks>
-
-        </RigthNav>
-      </NavContainer>
-    </>
-  )
+        </NavLinks>
+      </nav>
+      
+    </NavContainer>
+  );
 }
-
-export default Navbar

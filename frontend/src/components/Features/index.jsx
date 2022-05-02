@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom';
 import {
   WrapperTwo,
   SectionTextWhite,
@@ -25,9 +26,9 @@ export default function index() {
               CREATING simplicity and positivity through thoughtfully DESIGNED
               SPACES
               <ItemCenter data-aos="fade-up">
-                <a href="/about">
+                <Link to="/about">
                   <Button>LEARN MORE</Button>
-                </a>
+                </Link>
               </ItemCenter>
             </SectionTextWhite>
           </WrapperTwo>
