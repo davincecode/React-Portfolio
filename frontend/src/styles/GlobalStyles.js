@@ -53,7 +53,7 @@ export const WrapperOne = styled.div`
   ${tw`flex justify-center w-full h-[80vh]`}
 `
 export const CenterHalf = styled.div`
-  ${tw`w-1/2 h-screen flex flex-col justify-center`}
+  ${tw`w-full md:w-5/6 lg:w-1/2 h-screen flex flex-col justify-center`}
 `
 export const WrapperTwo = styled.div`
   ${tw`flex justify-center items-center`}
