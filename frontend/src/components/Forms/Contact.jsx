@@ -19,7 +19,7 @@ export default function Contact() {
   
 
   return (
-    <div className='flex items-center justify-center w-full'>
+    <div className='flex flex-col items-center justify-center w-full'>
       <form method="post" onSubmit={handleOnSubmit}>
         <label htmlFor="name">Name</label>
         <input type="text" name="name" />

@@ -1,12 +1,13 @@
-import React from "react"
+import { FullContainer } from "../styles/GlobalStyles"
+
 import Contact from "components/Forms/Contact"
-import Data from "../Data"
 
 export default function contact() {
   return (
     <>
-      <Contact />
-      <Data />
+      <FullContainer>
+        <Contact />
+      </FullContainer>
     </>
   )
 }
