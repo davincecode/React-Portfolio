@@ -33,7 +33,10 @@ export default function recent() {
                 review and detailed analysis of the film. In addition, each user
                 will be able to store the movies they want to watch in a watch
                 list. Each user will be able to rate and review each movie as
-                well.
+                well. This app was deployed on Heroku.
+                <br />
+                Tech Stack: Node, Express, ElephantSQL, React, Axios, Userfront,
+                Sass.
               </p>
               <hr className="flex items-center justify-between w-full mx-auto my-4 border-t border-neutral-300 " />
               <div className="flex justify-start gap-x-8">
@@ -65,10 +68,11 @@ export default function recent() {
             <RightCol>
               <H2Left>Interview Scheduler</H2Left>
               <p>
-                Laboris enim anim sit minim ea labore duis irure dolore. Cillum
-                enim anim nisi Lorem in nisi cillum excepteur consectetur
-                laboris minim aliquip velit incididunt. Consectetur do anim
-                nulla fugiat.
+                A simple interview appointment scheduling tool. A single-page
+                web app design using React that allows anyone to add, edit and
+                delete interviews. It does not include user account management,
+                but stores schedule information in a database. <br />
+                Tech Stack: Node, Express, React, Axios, PostgreSQL, Cypress.
               </p>
               <hr className="flex items-center justify-between w-full mx-auto my-4 border-t border-neutral-300 " />
               <div className="flex justify-start gap-x-8">
@@ -93,10 +97,15 @@ export default function recent() {
             <RightCol>
               <H2Left>Wedding Photography</H2Left>
               <p>
-                Laboris enim anim sit minim ea labore duis irure dolore. Cillum
-                enim anim nisi Lorem in nisi cillum excepteur consectetur
-                laboris minim aliquip velit incididunt. Consectetur do anim
-                nulla fugiat.
+                A Professional Wedding Photographer's Portfolio Website built
+                using WordPress. It is a fully responsive website that allows
+                users to view and manage thier photos. This website ranked #1 in
+                Google on local search.
+                <br />
+                <i>
+                  Plugins: Yoast SEO, Site Kit by Google, WP Rocket, Facebook
+                  Pixel, Google Analytics, Google Tag Manager, Google Adsense.
+                </i>
               </p>
               <hr className="flex items-center justify-between w-full mx-auto my-4 border-t border-neutral-300 " />
               <div className="flex justify-start gap-x-8">
@@ -121,10 +130,12 @@ export default function recent() {
             <RightCol>
               <H2Left>Wedding Cinematography</H2Left>
               <p>
-                Laboris enim anim sit minim ea labore duis irure dolore. Cillum
-                enim anim nisi Lorem in nisi cillum excepteur consectetur
-                laboris minim aliquip velit incididunt. Consectetur do anim
-                nulla fugiat.
+                A Professional Cinematographer's Portfolio Website that fetches
+                youtube API for video highlights. It is a fully responsive
+                website that allows users to view and download thier wedding
+                films. This app was deployed on Netlify. <br />
+                Tech Stack: Gatsby, React, GraphQL, Instagram API,
+                Styled-Components.
               </p>
               <hr className="flex items-center justify-between w-full mx-auto my-4 border-t border-neutral-300 " />
               <div className="flex justify-start gap-x-8">
