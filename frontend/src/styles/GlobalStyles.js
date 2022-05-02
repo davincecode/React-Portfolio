@@ -4,6 +4,9 @@ import styled from "styled-components"
 import tw from "twin.macro"
 
 /////////////////////////// CONTENT CONTAINERS ///////////////////////////
+export const FullScreen = styled.div`
+  ${tw`w-screen h-screen flex flex-col bg-[#eeede8]`}
+`
 export const FullContainer = styled.div`
   ${tw`w-full flex flex-col bg-[#eeede8]`}
 `

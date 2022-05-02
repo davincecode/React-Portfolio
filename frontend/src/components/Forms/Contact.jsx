@@ -1,34 +1,18 @@
 import React from 'react'
-import axios from 'axios';
+import {WrapperOne} from "../../styles/GlobalStyles"
 
-export default function Contact() {
-  async function handleOnSubmit(event) {
-    event.preventDefault();
-    const formData = {};
-    Array.from(event.currentTarget.elements).forEach(field => {
-      if (!field.name) return
-        formData[field.name] = field.value;
-    });
-    axios.post('/api/email', {
-      method: 'POST',
-      body: JSON.stringify(formData),
-    })
-      
-    console.log(formData);
-    }
-  
-
+const Contact = () => {
   return (
-    <div className='flex flex-col items-center justify-center w-full'>
-      <form method="post" onSubmit={handleOnSubmit}>
-        <label htmlFor="name">Name</label>
-        <input type="text" name="name" />
-        <label htmlFor="email">Email</label>
-        <input type="email" name="email" />
-        <label htmlFor="message">Message</label>
-        <textarea name="message" />
-        <button>Send</button>
-      </form>
-    </div >
+    <div>
+      <WrapperOne>
+      <iframe
+        src="https://app.studioninja.co/contactform/parser/0a800fc9-7033-1037-8170-4eea29d33fe4/0a800fc8-7686-1ed0-8176-c12f54171903"
+        title="contacts"
+        className="flex-1"
+      ></iframe>
+    </WrapperOne>
+    </div>
   )
 }
+
+export default Contact
