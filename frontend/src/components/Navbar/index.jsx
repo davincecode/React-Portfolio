@@ -3,7 +3,9 @@ import React from "react"
 import { NavContainer, LeftNav, RigthNav, NavLinks } from "../../styles/GlobalStyles"
 import { Link } from "react-router-dom"
 
-const index = () => {
+
+const Navbar = () => {
+  
   return (
     <>
       <NavContainer>
@@ -17,16 +19,11 @@ const index = () => {
             <Link to="/shop">SHOP</Link>
             <Link to="/contact">CONTACT</Link>
           </NavLinks>
-          {/* <MobileLinks>
-            <a href="/about">ABOUT</a>
-            <a href="/latestwork">LATEST WORK</a>
-            <a href="/shop">SHOP</a>
-            <a href="/contact">CONTACT</a>
-          </MobileLinks> */}
+
         </RigthNav>
       </NavContainer>
     </>
   )
 }
 
-export default index
+export default Navbar

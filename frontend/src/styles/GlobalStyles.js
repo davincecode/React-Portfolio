@@ -116,6 +116,9 @@ export const SectionP = styled.div`
 export const Button = styled.div`
   ${tw`flex justify-center w-56 p-4 mt-10 text-sm text-white bg-black font-millerLight cursor-pointer`}
 `
+export const AuthButton = styled.div`
+  ${tw`flex justify-center w-56 p-4 mt-10 text-sm text-white bg-black font-millerLight cursor-pointer`}
+`
 
 //////////////////////////////////// TEXTAREA //////////////////////////////////
 export const TextAWBG = styled.div`
