@@ -1,7 +1,6 @@
 import React from 'react' 
 import projectsList from 'Data/projectsList';
 import {FullContainer, TwoColContainer, SectionWrapper, LeftCol, RightCol, DividerRow, DividerCol, H2Left} from 'styles/GlobalStyles';
-import { Link } from 'react-router-dom';
 
 export const Projects = () => {
   return (
@@ -25,12 +24,12 @@ export const Projects = () => {
                           <p className='mt-2'>Tech Stack: <i>{ stack }</i></p>
                             <hr className="flex items-center justify-between w-full mx-auto my-4 border-t border-neutral-300 " />
                         <div className="flex justify-start gap-x-8">
-                          <Link to={ link1 } target="_blank" rel="noreferrer">
+                          <a href={ link1 } target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-globe"></i>
-                              </Link>
-                              <Link to={ link2 } target="_blank" rel="noreferrer">
+                              </a>
+                              <a href={ link2 } target="_blank" rel="noreferrer">
                             <i className="fa-brands fa-github"></i>
-                          </Link>
+                          </a>
                         </div>
                     </RightCol>
                   </SectionWrapper>
