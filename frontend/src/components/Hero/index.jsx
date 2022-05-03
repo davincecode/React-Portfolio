@@ -5,7 +5,7 @@ import { FullContainer, HeroElements, Button } from "../../styles/GlobalStyles"
 export default function Index() {
   return (
     <>
-      <FullContainer>
+      <FullContainer className="bg-[#eeede8]">
         <HeroElements>
 
           <img className="w-[500px] " src="/images/laptop.jpg" data-aos="fade" />
