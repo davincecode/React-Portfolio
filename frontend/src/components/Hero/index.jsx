@@ -10,7 +10,7 @@ export default function Index() {
           <div className="w-[400px]">
           <img className="flex-1 " src="/images/laptop.jpg" data-aos="fade" />
           </div>
-          <div className="flex-wrap items-center justify-center w-full p-8 text-2xl tracking-wide md:w-2/5 md:text-3xl font-millerLight md:leading-loose" data-aos="fade-left">
+          <div className="flex-wrap items-center justify-center w-full p-8 text-2xl tracking-wide md:w-2/5 md:text-2xl md:p-0 lg:text-3xl font-millerLight md:leading-loose" data-aos="fade-left">
             Full-stack web designs focused on{" "}
             <div>
               <span className=" font-millerItalic">Simplicity</span> and

@@ -11,7 +11,7 @@ export const SecondContainer = styled.div`
   ${tw`min-h-screen md:h-[88vh] flex flex-col bg-[#eeede8]`}
 `
 export const FullContainer = styled.div`
-  ${tw`w-full flex flex-col p-8 md:p-0`}
+  ${tw`w-full flex flex-col md:p-0`}
 `
 export const SectionBGcool = styled.div`
   ${tw`bg-[#e0e4e3]`}
@@ -29,7 +29,7 @@ export const ParallaxBG = styled.div`
   ${tw`w-full h-screen object-cover bg-scroll `}
 `
 export const HeroElements = styled.div`
-  ${tw`flex flex-col min-h-screen md:h-[88vh] items-center content-start  md:justify-center md:flex-row md:space-x-9`}
+  ${tw`flex flex-col md:h-[88vh] items-center content-start  md:justify-center md:flex-row md:space-x-9`}
 `
 export const HeroElementsMD = styled.div`
   ${tw`flex flex-col min-h-full items-center content-start w-full lg:justify-center lg:flex-row lg:space-x-9`}
@@ -110,10 +110,10 @@ export const FeatureContainer = styled.div`
 
 ///////////////////////////// 1 x 2 Box Wrappers /////////////////////////////
 export const ContainerWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center w-full h-full md:p-12 mb-5`}
+  ${tw`flex flex-col items-center justify-center w-full h-full  mb-5`}
 `
 export const WorkBoxWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center h-full p-8 md:w-3/5 md:flex-row`}
+  ${tw`flex flex-col items-center justify-center h-full p-8 md:w-5/6 xl:w-3/5 md:flex-row`}
 `
 export const WorkLeftBox = styled.div`
   ${tw`relative flex items-center justify-center object-fill w-full h-full`}
@@ -136,7 +136,7 @@ export const SectionH1 = styled.div`
   ${tw`flex p-8 text-3xl leading-relaxed tracking-wide font-millerLight`}
 `
 export const SectionH2 = styled.div`
-  ${tw`flex md:p-8 text-2xl text-center md:text-3xl md:tracking-wide md:leading-loose font-millerLight`}
+  ${tw`flex text-2xl text-center md:text-3xl md:tracking-wide md:leading-loose font-millerLight`}
 `
 export const H2Left = styled.div`
   ${tw`flex text-2xl items-start my-4 lg:my-0 md:tracking-wide md:leading-loose font-millerLight`}
@@ -190,7 +190,7 @@ export const SectionContainer = styled.div`
 `
 
 export const SectionPadding = styled.div`
-  ${tw` py-20 md:p-24 w-3/4`}
+  ${tw` py-20 md:py-12 lg:p-24 w-3/4`}
 `
 //this requires CenteredTitle
 export const DivColumn = styled.div`
