@@ -7,6 +7,9 @@ import tw from "twin.macro"
 export const FullScreen = styled.div`
   ${tw`w-screen h-screen flex flex-col bg-[#eeede8]`}
 `
+export const SecondContainer = styled.div`
+  ${tw`min-h-screen md:h-[88vh] flex flex-col bg-[#eeede8]`}
+`
 export const FullContainer = styled.div`
   ${tw`w-full flex flex-col py-4 px-8 md:p-0`}
 `
@@ -26,7 +29,7 @@ export const ParallaxBG = styled.div`
   ${tw`w-full h-screen object-cover bg-scroll `}
 `
 export const HeroElements = styled.div`
-  ${tw`flex flex-col h-[100vh] md:h-[88vh] items-center content-start  md:justify-center md:flex-row md:space-x-9`}
+  ${tw`flex flex-col h-[88vh] items-center content-start  md:justify-center md:flex-row md:space-x-9`}
 `
 export const TwoColContainer = styled.div`
   ${tw`flex flex-col w-full md:justify-center md:flex-col lg:flex-row`}
@@ -76,13 +79,13 @@ export const ItemCenter = styled.div`
 
 ///////////////////////////// NAV COMPONENTS /////////////////////////////
 export const NavContainer = styled.div`
-  ${tw`flex w-full md:h-[12vh] items-center justify-between py-8 px-4`}
+  ${tw`flex w-full md:h-[12vh] items-center justify-between p-8`}
 `
 // export const NavContainer = styled.div`
 //   ${tw`flex flex-col w-screen md:h-[12vh] p-10 mx-auto bg-white md:justify-between md:flex-row`}
 // `
 export const NavLinks = styled.div`
-  ${tw`items-center justify-center hidden space-x-16 tracking-widest md:flex font-millerLight`}
+  ${tw`items-center justify-center hidden space-x-8 tracking-widest md:flex font-millerLight`}
 `
 export const MobileLinks = styled.div`
   ${tw`flex flex-col items-center justify-center tracking-widest md:hidden`}
@@ -121,7 +124,10 @@ export const CenteredTitle = styled.div`
 
 ///////////////////////////////// HEADERS & DESC //////////////////////////////
 export const SectionTitle = styled.div`
-  ${tw`flex items-center justify-center mt-16 text-3xl font-millerLight`}
+  ${tw`flex items-center justify-center mt-16 text-3xl md:text-2xl font-millerLight`}
+`
+export const SectionTitleStart = styled.div`
+  ${tw`flex justify-start my-4 text-2xl font-millerItalicLight `}
 `
 export const SectionH1 = styled.div`
   ${tw`flex p-8 text-3xl leading-relaxed tracking-wide font-millerLight`}
@@ -134,6 +140,9 @@ export const H2Left = styled.div`
 `
 export const SectionP = styled.div`
   ${tw`flex p-4 md:p-8 text-lg text-center md:text-lg md:tracking-wide md:leading-loose font-millerLight`}
+`
+export const SectionPL = styled.div`
+  ${tw`flex flex-col text-justify text-base md:text-lg md:tracking-wide leading-relaxed font-millerLight`}
 `
 
 //////////////////////////////////// BUTTONS //////////////////////////////////
@@ -158,10 +167,19 @@ export const SectionTextWhite = styled.div`
   ${tw`absolute text-3xl text-white text-center tracking-wider leading-loose font-millerLight`}
 `
 export const TextWhiteStart = styled.div`
-  ${tw`absolute text-lg text-white tracking-wider leading-loose font-millerLight`}
+  ${tw`flex justify-end flex-col md:absolute text-lg text-white tracking-wider leading-loose font-millerLight`}
 `
 
 //////////////////////////////////// MOBILE  ////////////////////////////////////
+export const FullContainerMobile = styled.div`
+  ${tw`flex flex-col`}
+`
+export const WrapperTwoMobile = styled.div`
+  ${tw`p-4 flex items-end`}
+`
+export const WrapperOneMobile = styled.div`
+  ${tw`flex flex-1 h-[80vh]`}
+`
 
 //////////////////////////////////// CLEANUP  ////////////////////////////////////
 export const SectionContainer = styled.div`
@@ -174,4 +192,7 @@ export const SectionPadding = styled.div`
 //this requires CenteredTitle
 export const DivColumn = styled.div`
   ${tw`relative flex items-center justify-center`}
+`
+export const AboutP = styled.div`
+  ${tw`flex-wrap items-center justify-center p-4 text-xl tracking-wide md:p-0 md:w-2/5 md:text-lg font-millerLight md:leading-loose`}
 `

@@ -7,9 +7,9 @@ export default function Index() {
     <>
       <FullContainer className="bg-[#eeede8]">
         <HeroElements>
-
-          <img className="w-[500px] " src="/images/laptop.jpg" data-aos="fade" />
-          
+          <div className="w-[400px]">
+          <img className="flex-1 " src="/images/laptop.jpg" data-aos="fade" />
+          </div>
           <div className="flex-wrap items-center justify-center w-full p-8 text-3xl tracking-wide md:w-2/5 md:text-4xl font-millerLight md:leading-loose" data-aos="fade-left">
             Full-stack web designs focused on{" "}
             <div>

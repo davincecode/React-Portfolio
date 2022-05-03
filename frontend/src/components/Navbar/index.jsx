@@ -45,16 +45,16 @@ export default function Header() {
             <RigthNav>
             <ul className="">
               <li className="my-8 uppercase font-millerLight">
-                <Link to="/about">ABOUT</Link>
+                <a href="/about">ABOUT</a>
               </li>
               <li className="my-8 uppercase font-millerLight">
-                <Link to="/recent">RECENT WORK</Link>
+                <a href="/recent">RECENT WORK</a>
               </li>
               <li className="my-8 uppercase font-millerLight">
-                <Link to="/shop">SHOP</Link>
+                <a href="/shop">SHOP</a>
               </li>
               <li className="my-8 uppercase font-millerLight">
-                <Link to="/contact">CONTACT</Link>
+                <a href="/contact">CONTACT</a>
               </li>
               </ul>
               </RigthNav>
@@ -62,7 +62,7 @@ export default function Header() {
         </section>
 
         {/* Desktop */}
-        <NavLinks className="hidden space-x-8 DESKTOP-MENU lg:flex">
+        <NavLinks className="hidden DESKTOP-MENU lg:flex">
             <Link to="/about">ABOUT</Link>
             <Link to="/recent">RECENT WORK</Link>
             <Link to="/shop">SHOP</Link>

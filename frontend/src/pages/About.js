@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom"
 import {
-  FullContainer,
+  SecondContainer,
   HeroElements,
   Button,
+  AboutP,
+  SectionPL,
+  SectionTitleStart,
   SectionBGStandard,
-  WrapperOneStart,
+  WrapperOneMobile,
   TextWhiteStart,
-  WrapperTwoStart,
+  WrapperTwoMobile,
+  FullContainerMobile,
 } from "../styles/GlobalStyles"
 
 export default function About() {
@@ -20,7 +24,7 @@ export default function About() {
   return (
     <>
       <SectionBGStandard>
-        <FullContainer>
+        <SecondContainer>
           <HeroElements>
             <img
               className="w-[500px] md:w-[350px] "
@@ -28,38 +32,43 @@ export default function About() {
               alt=""
             />
 
-            <div className="flex-wrap items-center justify-center w-full p-8 text-xl tracking-wide md:p-0 md:w-2/5 md:text-lg font-millerLight md:leading-loose">
-              <h1 className="mt-8 text-3xl font-millerItalic ">
-                Thanks for being here!
-              </h1>
-              <br />
-              My name is Vince! I'm a full-stack web developer with a passion
-              for building and designing beautiful, responsive websites.
-              <div className="mt-4">
-                If you're interested in working together, please reach out!
-                <br /> I'd love to chat about your next project.
-                <Link to="/recent">
-                  <Button>RECENT WORK</Button>
-                </Link>
-              </div>
-            </div>
+            <AboutP>
+              <SectionTitleStart>Thanks for being here!</SectionTitleStart>
+              <SectionPL>
+                <span className="mb-4">My name is Vince!</span>A
+                detail-oriented, Full-Stack Web Developer devoted to crafting
+                beautiful web experiences focused on simplicity and function.
+                Strong communicator with the ability to work effectively on a
+                diverse team. I am looking to bring these skills to a
+                product-focused tech company with a global reach.
+                <span className="mt-4">
+                  If you're interested in working together, please reach out!
+                  I'd love to chat about your next project.
+                </span>
+              </SectionPL>
+              <Link to="/recent">
+                <Button>RECENT WORK</Button>
+              </Link>
+            </AboutP>
           </HeroElements>
-        </FullContainer>
+        </SecondContainer>
       </SectionBGStandard>
-      <div style={styles}>
-        <WrapperOneStart>
-          <WrapperTwoStart>
-            <TextWhiteStart className="p-4 bg-opacity-75 md:p-12 mt-96 bg-stone-900">
-              Tech Stack used for this website:
-              <br />
-              <i>
-                NodeJS, Express, React, MongoDB, Mongoose, Axios, JWT,
-                TailwindCSS, Twin.Macro, Styled-Components, SendGrid.
-              </i>
-            </TextWhiteStart>
-          </WrapperTwoStart>
-        </WrapperOneStart>
-      </div>
+      <FullContainerMobile>
+        <div style={styles}>
+          <WrapperOneMobile>
+            <WrapperTwoMobile>
+              <TextWhiteStart className="p-12 bg-opacity-75 md:flex-1 bg-stone-900">
+                Tech Stack used for this website:
+                <br />
+                <i>
+                  NodeJS, Express, React, MongoDB, Mongoose, Axios, JWT,
+                  TailwindCSS, Twin.Macro, Styled-Components, SendGrid.
+                </i>
+              </TextWhiteStart>
+            </WrapperTwoMobile>
+          </WrapperOneMobile>
+        </div>
+      </FullContainerMobile>
     </>
   )
 }
