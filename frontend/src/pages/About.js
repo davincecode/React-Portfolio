@@ -1,17 +1,16 @@
 import { Link } from "react-router-dom"
 import {
   SecondContainer,
-  HeroElements,
+  SectionTitleStart,
+  HeroElementsMD,
   Button,
   AboutP,
   SectionPL,
-  SectionTitleStart,
-  SectionBGStandard,
   WrapperOneMobile,
   TextWhiteStart,
   WrapperTwoMobile,
   FullContainerMobile,
-} from "../styles/GlobalStyles"
+} from "styles/GlobalStyles"
 
 export default function About() {
   const styles = {
@@ -23,36 +22,34 @@ export default function About() {
   }
   return (
     <>
-      <SectionBGStandard>
-        <SecondContainer>
-          <HeroElements>
-            <img
-              className="w-[500px] md:w-[350px] "
-              src="/images/motor.jpg"
-              alt=""
-            />
+      <SecondContainer>
+        <HeroElementsMD>
+          <img
+            className="w-full md:w-[500px] mt-8 lg:w-[400px]"
+            src="/images/motor.jpg"
+            alt=""
+          />
 
-            <AboutP>
-              <SectionTitleStart>Thanks for being here!</SectionTitleStart>
-              <SectionPL>
-                <span className="mb-4">My name is Vince!</span>A
-                detail-oriented, Full-Stack Web Developer devoted to crafting
-                beautiful web experiences focused on simplicity and function.
-                Strong communicator with the ability to work effectively on a
-                diverse team. I am looking to bring these skills to a
-                product-focused tech company with a global reach.
-                <span className="mt-4">
-                  If you're interested in working together, please reach out!
-                  I'd love to chat about your next project.
-                </span>
-              </SectionPL>
-              <Link to="/recent">
-                <Button>RECENT WORK</Button>
-              </Link>
-            </AboutP>
-          </HeroElements>
-        </SecondContainer>
-      </SectionBGStandard>
+          <AboutP>
+            <SectionPL>
+              <SectionTitleStart>Hello! My name is Vince!</SectionTitleStart>A
+              creative and detail-oriented, Full-Stack software developer
+              devoted to crafting beautiful web experiences focused on
+              simplicity and function. A Strong communicator with the ability to
+              work effectively on a diverse team. I am looking to bring these
+              skills to a product-focused tech company with a global reach.
+              <span className="mt-4">
+                If you're interested in working together, please reach out! I'd
+                love to chat about your next project.
+              </span>
+            </SectionPL>
+            <Link to="/recent">
+              <Button>RECENT WORK</Button>
+            </Link>
+          </AboutP>
+        </HeroElementsMD>
+      </SecondContainer>
+
       <FullContainerMobile>
         <div style={styles}>
           <WrapperOneMobile>

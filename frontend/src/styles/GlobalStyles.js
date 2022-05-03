@@ -11,7 +11,7 @@ export const SecondContainer = styled.div`
   ${tw`min-h-screen md:h-[88vh] flex flex-col bg-[#eeede8]`}
 `
 export const FullContainer = styled.div`
-  ${tw`w-full flex flex-col py-4 px-8 md:p-0`}
+  ${tw`w-full flex flex-col md:p-0`}
 `
 export const SectionBGcool = styled.div`
   ${tw`bg-[#e0e4e3]`}
@@ -29,7 +29,10 @@ export const ParallaxBG = styled.div`
   ${tw`w-full h-screen object-cover bg-scroll `}
 `
 export const HeroElements = styled.div`
-  ${tw`flex flex-col h-[88vh] items-center content-start  md:justify-center md:flex-row md:space-x-9`}
+  ${tw`flex flex-col min-h-screen md:h-[88vh] items-center content-start  md:justify-center md:flex-row md:space-x-9`}
+`
+export const HeroElementsMD = styled.div`
+  ${tw`flex flex-col min-h-full items-center content-start w-full lg:justify-center lg:flex-row lg:space-x-9`}
 `
 export const TwoColContainer = styled.div`
   ${tw`flex flex-col w-full md:justify-center md:flex-col lg:flex-row`}
@@ -194,5 +197,7 @@ export const DivColumn = styled.div`
   ${tw`relative flex items-center justify-center`}
 `
 export const AboutP = styled.div`
-  ${tw`flex-wrap items-center justify-center p-4 text-xl tracking-wide md:p-0 md:w-2/5 md:text-lg font-millerLight md:leading-loose`}
+  ${tw`flex flex-col text-justify text-base p-8 md:w-3/4 lg:p-0 lg:w-1/2`}
 `
+
+// flex-wrap items-center justify-center p-4 text-xl w-full min-h-full md:w-5/6 md:p-12 lg:p-0 lg:w-2/5 lg:text-lg font-millerLight lg:leading-loose border-2 border-black
