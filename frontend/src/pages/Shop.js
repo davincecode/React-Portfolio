@@ -8,7 +8,7 @@ export default function Shop() {
   const { isLoading, error } = useAuth0()
 
   return (
-    <FullContainer>
+    <FullContainer className="bg-[#eeede8]">
       <div className="flex flex-col justify-center p-20">
         <h1 className="flex justify-center text-2xl font-millerLight">SHOP</h1>
         {error && <p>Authentication Error</p>}
@@ -24,6 +24,7 @@ export default function Shop() {
             <Profile />
           </>
         )}
+        <p className="flex justify-center mt-28">Work In Progress...</p>
       </div>
     </FullContainer>
   )

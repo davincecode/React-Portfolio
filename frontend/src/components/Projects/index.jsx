@@ -12,7 +12,7 @@ export const Projects = () => {
         return (
           <>
             <div key={index}>
-            <FullContainer>
+            <FullContainer className='bg-[#eeede8]'>
                 <TwoColContainer>
                   <SectionWrapper>
                     <LeftCol>

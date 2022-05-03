@@ -8,10 +8,13 @@ export const FullScreen = styled.div`
   ${tw`w-screen h-screen flex flex-col bg-[#eeede8]`}
 `
 export const FullContainer = styled.div`
-  ${tw`w-full flex flex-col bg-[#eeede8] py-4 px-8 md:p-0`}
+  ${tw`w-full flex flex-col py-4 px-8 md:p-0`}
 `
 export const SectionBGcool = styled.div`
   ${tw`bg-[#e0e4e3]`}
+`
+export const SectionBGStandard = styled.div`
+  ${tw`bg-[#eeede8]`}
 `
 export const SectionBGwarm = styled.div`
   ${tw`bg-[#a19183]`}
@@ -55,11 +58,17 @@ export const HorizontalDivider = styled.div`
 export const WrapperOne = styled.div`
   ${tw`flex justify-center w-full h-[80vh]`}
 `
+export const WrapperOneStart = styled.div`
+  ${tw`flex justify-start w-full h-[80vh]`}
+`
 export const CenterHalf = styled.div`
   ${tw`w-full md:w-5/6 lg:w-1/2 h-screen flex flex-col justify-center`}
 `
 export const WrapperTwo = styled.div`
   ${tw`flex justify-center items-center`}
+`
+export const WrapperTwoStart = styled.div`
+  ${tw`flex p-24`}
 `
 export const ItemCenter = styled.div`
   ${tw`flex justify-center items-center`}
@@ -147,6 +156,9 @@ export const TextANoBG = styled.div`
 `
 export const SectionTextWhite = styled.div`
   ${tw`absolute text-3xl text-white text-center tracking-wider leading-loose font-millerLight`}
+`
+export const TextWhiteStart = styled.div`
+  ${tw`absolute text-lg text-white tracking-wider leading-loose font-millerLight`}
 `
 
 //////////////////////////////////// MOBILE  ////////////////////////////////////

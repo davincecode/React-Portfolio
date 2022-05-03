@@ -5,7 +5,7 @@ import Contact from "components/Forms/Contact"
 export default function contact() {
   return (
     <>
-      <FullContainer>
+      <FullContainer className="bg-[#eeede8]">
         <Contact />
       </FullContainer>
     </>
