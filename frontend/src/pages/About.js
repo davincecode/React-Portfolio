@@ -25,7 +25,7 @@ export default function About() {
       <SecondContainer>
         <HeroElementsMD>
           <img
-            className="w-full md:w-[500px] mt-8 lg:w-[400px]"
+            className="w-full md:w-[500px] md:mt-8 lg:w-[400px]"
             src="/images/motor.jpg"
             alt=""
           />

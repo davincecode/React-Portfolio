@@ -84,9 +84,6 @@ export const ItemCenter = styled.div`
 export const NavContainer = styled.div`
   ${tw`flex w-full md:h-[12vh] items-center justify-between p-8`}
 `
-// export const NavContainer = styled.div`
-//   ${tw`flex flex-col w-screen md:h-[12vh] p-10 mx-auto bg-white md:justify-between md:flex-row`}
-// `
 export const NavLinks = styled.div`
   ${tw`items-center justify-center hidden space-x-8 tracking-widest md:flex font-millerLight`}
 `
@@ -97,7 +94,7 @@ export const LeftNav = styled.div`
   ${tw`text-2xl font-millerLight items-center flex justify-center`}
 `
 export const RigthNav = styled.div`
-  ${tw`flex flex-col items-center justify-between min-h-[250px]`}
+  ${tw`flex flex-col items-center justify-between h-[250px]`}
 `
 // export const RigthNav = styled.div`
 //   ${tw`flex flex-row text-sm font-millerLight items-center justify-center`}
