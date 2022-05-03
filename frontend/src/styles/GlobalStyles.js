@@ -11,7 +11,7 @@ export const SecondContainer = styled.div`
   ${tw`min-h-screen md:h-[88vh] flex flex-col bg-[#eeede8]`}
 `
 export const FullContainer = styled.div`
-  ${tw`w-full flex flex-col md:p-0`}
+  ${tw`w-full flex flex-col p-8 md:p-0`}
 `
 export const SectionBGcool = styled.div`
   ${tw`bg-[#e0e4e3]`}
@@ -139,7 +139,7 @@ export const SectionH2 = styled.div`
   ${tw`flex md:p-8 text-2xl text-center md:text-3xl md:tracking-wide md:leading-loose font-millerLight`}
 `
 export const H2Left = styled.div`
-  ${tw`flex text-2xl items-start my-4 lg:my-0 md:text-3xl md:tracking-wide md:leading-loose font-millerLight`}
+  ${tw`flex text-2xl items-start my-4 lg:my-0 md:tracking-wide md:leading-loose font-millerLight`}
 `
 export const SectionP = styled.div`
   ${tw`flex p-4 md:p-8 text-lg text-center md:text-lg md:tracking-wide md:leading-loose font-millerLight`}

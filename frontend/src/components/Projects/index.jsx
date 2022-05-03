@@ -15,7 +15,7 @@ export const Projects = () => {
                 <TwoColContainer>
                   <SectionWrapper>
                     <LeftCol>
-                      <img src={ image } alt={ title } />
+                      <img src={ image } alt={ title }/>
                     </LeftCol>
                     <DividerRow />
                     <RightCol>

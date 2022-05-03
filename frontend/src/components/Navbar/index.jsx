@@ -45,16 +45,16 @@ export default function Header() {
             <RigthNav>
             <ul className="">
               <li className="my-8 uppercase font-millerLight">
-                <a href="/about">ABOUT</a>
+                <a href="/about" target="_self" rel="noreferrer">ABOUT</a>
               </li>
               <li className="my-8 uppercase font-millerLight">
-                <a href="/recent">RECENT WORK</a>
+                <a href="/recent" target="_self" rel="noreferrer">RECENT WORK</a>
               </li>
               <li className="my-8 uppercase font-millerLight">
-                <a href="/shop">SHOP</a>
+                <a href="/shop" target="_self" rel="noreferrer">SHOP</a>
               </li>
               <li className="my-8 uppercase font-millerLight">
-                <a href="/contact">CONTACT</a>
+                <a href="/contact" target="_self" rel="noreferrer">CONTACT</a>
               </li>
               </ul>
               </RigthNav>
