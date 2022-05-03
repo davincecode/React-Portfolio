@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1235fc58.css",
+    "main.js": "/static/js/main.951f4bfb.js",
+    "static/media/SVN-Miller-Banner-Italic.woff": "/static/media/SVN-Miller-Banner-Italic.0ee262b24a102764be5a.woff",
+    "static/media/SVN-Miller-Banner.woff": "/static/media/SVN-Miller-Banner.7fbb2b01bd444f970bd4.woff",
+    "static/media/SVN-Miller-Banner-Italic.woff2": "/static/media/SVN-Miller-Banner-Italic.5164900d9f23d80a6f4a.woff2",
+    "static/media/Miller-Banner-Light-Italic.woff": "/static/media/Miller-Banner-Light-Italic.cd0a6c8c393315594c13.woff",
+    "static/media/SVN-Miller-Banner.woff2": "/static/media/SVN-Miller-Banner.3fc38cdc5300ab6729a8.woff2",
+    "static/media/Miller-Banner-Light.woff": "/static/media/Miller-Banner-Light.7dd9594cc84fbc5ba3ff.woff",
+    "static/media/HK-Grotesk-Light.woff2": "/static/media/HK-Grotesk-Light.4d9492b0616d2b83c4e4.woff2",
+    "static/media/HK-Grotesk-Regular.woff2": "/static/media/HK-Grotesk-Regular.89e9d7937657a88287e0.woff2",
+    "index.html": "/index.html",
+    "main.1235fc58.css.map": "/static/css/main.1235fc58.css.map",
+    "main.951f4bfb.js.map": "/static/js/main.951f4bfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1235fc58.css",
+    "static/js/main.951f4bfb.js"
+  ]
+}
