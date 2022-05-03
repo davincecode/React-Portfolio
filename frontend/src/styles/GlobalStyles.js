@@ -39,7 +39,7 @@ export const TwoColContainer = styled.div`
 `
 ///////////////////////////// SECTION CONTAINER //////////////////////////
 export const SectionWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center h-full md:p-8 md:w-full md:flex-col lg:flex-row lg:w-2/3 `}
+  ${tw`flex flex-col items-center justify-center h-full p-8 md:w-full md:flex-col lg:flex-row lg:w-2/3 `}
 `
 
 //////////////////////////// FLEX ROW CONTAINER //////////////////////////

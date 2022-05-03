@@ -3,7 +3,7 @@ const projectsList = [
   {
     title: 'Triplex Movies',
     image: '/images/triplex.gif',
-    description: 'A Netflix-inspired app with a discussion forum. It is an online movie streaming service where a user can write a good in-depth review and detailed analysis of the film. In addition, each user will be able to store the movies they want to watch in a watch list. Each user will be able to rate and review each movie as well. This app was deployed on Heroku.',
+    description: 'A Netflix-inspired app with a discussion forum. A user can write a good in-depth review and detailed analysis of the film. In addition, each user will be able add/remove a movie to watchlist and submit reviews. This app was deployed on Heroku.',
     stack: 'Node, Express, ElephantSQL, React, Axios, Userfront, Sass.',
     link1: "https://triplex-lhl.herokuapp.com/",
     link2: "https://github.com/davincecode/triplex-movie-streaming"
@@ -19,7 +19,7 @@ const projectsList = [
   {
     title: 'Wedding Photography',
     image: '/images/weddingphoto.gif',
-    description: 'A Professional Wedding Photographers Portfolio Website built using WordPress. It is a fully responsive website that allows users to view and manage their photos. This website ranked #1 in Google on local search.',
+    description: 'A Professional Wedding Photographers Portfolio Website built using WordPress. It is a fully responsive website and allows users to view and manage their photos. This website ranked #1 in Google on local search.',
     stack: 'Yoast SEO, Site Kit by Google, WP Rocket, Facebook, Pixel, Google Analytics, Google Tag Manager, Google Adsense.',
     link1: "https://vincentybanez.com/",
     link2: "/"
