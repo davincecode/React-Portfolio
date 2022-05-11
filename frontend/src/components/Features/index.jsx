@@ -27,7 +27,7 @@ export default function index() {
               SPACES
               <ItemCenter data-aos="fade-up">
                 <Link to="/recent">
-                  <Button>LEARN MORE</Button>
+                  <Button>RECENT WORK</Button>
                 </Link>
               </ItemCenter>
             </SectionTextWhite>

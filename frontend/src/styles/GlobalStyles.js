@@ -62,13 +62,19 @@ export const HorizontalDivider = styled.div`
 
 ////////////////////////// WRAPPERS NO-BG-COLOR //////////////////////////
 export const WrapperOne = styled.div`
-  ${tw`flex justify-center w-full h-[80vh]`}
+  ${tw`flex justify-center w-full h-[50vh]`}
+`
+export const WrapperForm = styled.div`
+  ${tw`flex justify-center w-full h-[100vh] md:h-[70vh]`}
 `
 export const WrapperOneStart = styled.div`
-  ${tw`flex justify-start w-full h-[80vh]`}
+  ${tw`flex justify-start w-full h-[100vh]`}
 `
 export const CenterHalf = styled.div`
-  ${tw`w-full md:w-5/6 lg:w-1/2 h-screen flex flex-col justify-center`}
+  ${tw`w-full md:w-5/6 lg:w-1/2 flex flex-col justify-center`}
+`
+export const CenterForm = styled.div`
+  ${tw`w-full md:w-5/6 lg:w-1/2 flex flex-col justify-center`}
 `
 export const WrapperTwo = styled.div`
   ${tw`flex justify-center items-center`}
@@ -110,7 +116,7 @@ export const ContainerWrapper = styled.div`
   ${tw`flex flex-col items-center justify-center w-full h-full  mb-5`}
 `
 export const WorkBoxWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center h-full p-8 md:w-5/6 xl:w-3/5 md:flex-row`}
+  ${tw`flex flex-col items-center justify-center h-full p-0 md:w-5/6 xl:w-3/5 md:flex-row border-2 border-gray-300`}
 `
 export const WorkLeftBox = styled.div`
   ${tw`relative flex items-center justify-center object-fill w-full h-full`}
@@ -195,6 +201,9 @@ export const DivColumn = styled.div`
 `
 export const AboutP = styled.div`
   ${tw`flex flex-col text-justify text-base p-8 md:w-3/4 lg:p-0 lg:w-1/2`}
+`
+export const XP = styled.div`
+  ${tw`flex flex-col text-justify text-base p-0 md:w-3/4 lg:p-0 lg:w-1/2 border-2 border-black`}
 `
 
 // flex-wrap items-center justify-center p-4 text-xl w-full min-h-full md:w-5/6 md:p-12 lg:p-0 lg:w-2/5 lg:text-lg font-millerLight lg:leading-loose border-2 border-black

@@ -8,7 +8,7 @@ export default function index() {
     <>
       <footer className="pt-4 pb-8 bg-[#eeede8] xl:pt-24 xl:pb-24">
       <Contact />
-        <div className="max-w-screen-lg px-4 mx-auto text-white xl:max-w-screen-xl sm:px-6 md:px-8 text-black">
+        {/* <div className="max-w-screen-lg px-4 mx-auto mt-32 text-white sm:px-6 md:px-8"> */}
           {/* <ul className="flex flex-col flex-wrap justify-center pb-8 text-lg md:flex-row">
             <li className="w-full my-12 md:w-1/3 lg:w-1/3">
               <div className="text-center">
@@ -81,7 +81,7 @@ export default function index() {
                 </ul>
               </div>
             </li>
-          </ul> */}
+          </ul>
           
           {/* <hr className="flex items-center justify-between w-full pt-8 mx-auto border-t border-white" /> */}
           <div className="flex items-center justify-between max-w-xs mx-auto ">
@@ -102,7 +102,7 @@ export default function index() {
           <div className="flex items-center justify-center pt-10 font-light text-center sm:pt-">
             <small>©2022 COPYRIGHT DAVINCECODE. ALL RIGHTS RESERVED.</small>
           </div>
-        </div>
+        {/* </div> */}
       </footer>
     </>
   )
