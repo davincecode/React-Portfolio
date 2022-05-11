@@ -94,7 +94,7 @@ export const LeftNav = styled.div`
   ${tw`text-2xl font-millerLight items-center flex justify-center`}
 `
 export const RigthNav = styled.div`
-  ${tw`flex flex-col items-center justify-between h-[250px]`}
+  ${tw`flex flex-col items-center justify-between h-auto`}
 `
 // export const RigthNav = styled.div`
 //   ${tw`flex flex-row text-sm font-millerLight items-center justify-center`}
@@ -133,7 +133,7 @@ export const SectionH1 = styled.div`
   ${tw`flex p-8 text-3xl leading-relaxed tracking-wide font-millerLight`}
 `
 export const SectionH2 = styled.div`
-  ${tw`flex text-2xl text-center md:text-3xl md:tracking-wide md:leading-loose font-millerLight`}
+  ${tw`flex text-xl text-center md:text-2xl md:tracking-wide md:leading-loose font-millerLight`}
 `
 export const H2Left = styled.div`
   ${tw`flex text-2xl items-start my-4 lg:my-0 md:tracking-wide md:leading-loose font-millerLight`}
@@ -187,7 +187,7 @@ export const SectionContainer = styled.div`
 `
 
 export const SectionPadding = styled.div`
-  ${tw` py-20 md:py-12 lg:p-24 w-3/4`}
+  ${tw` py-20 md:py-12 lg:p-16 w-3/4`}
 `
 //this requires CenteredTitle
 export const DivColumn = styled.div`

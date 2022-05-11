@@ -26,7 +26,7 @@ export default function index() {
               CREATING simplicity and positivity through thoughtfully DESIGNED
               SPACES
               <ItemCenter data-aos="fade-up">
-                <Link to="/about">
+                <Link to="/recent">
                   <Button>LEARN MORE</Button>
                 </Link>
               </ItemCenter>

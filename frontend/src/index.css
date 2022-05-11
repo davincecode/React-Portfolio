@@ -2,6 +2,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+#experience {
+  overflow-y: scroll;
+}
 @tailwind components;
 @tailwind utilities;
 

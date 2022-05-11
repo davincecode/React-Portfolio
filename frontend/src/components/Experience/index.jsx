@@ -13,6 +13,7 @@ import {
 const index = () => {
   return (
     <>
+      <div>
       <ContainerWrapper>
         <SectionTitle>EXPERIENCE</SectionTitle>
         <WorkBoxWrapper>
@@ -31,7 +32,8 @@ const index = () => {
             </DivColumn>
           </WorkRightBox>
         </WorkBoxWrapper>
-      </ContainerWrapper>
+        </ContainerWrapper>
+      </div>
     </>
   )
 }

@@ -8,7 +8,7 @@ import {
 export default function index() {
   return (
     <>
-      
+      <div id="experience">
         <SectionContainer className='bg-[#a19183]'>
           <SectionPadding>
             <SectionH2 data-aos="fade-up" className='text-white'>
@@ -17,7 +17,7 @@ export default function index() {
             </SectionH2>
           </SectionPadding>
         </SectionContainer>
-        
+      </div>
     </>
   )
 }

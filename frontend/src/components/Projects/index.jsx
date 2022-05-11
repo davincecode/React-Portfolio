@@ -11,7 +11,7 @@ export const Projects = () => {
         return (
           <>
             <div key={index}>
-            <FullContainer className='bg-[#eeede8]'>
+            <FullContainer className='bg-[#a19183] text-white'>
                 <TwoColContainer>
                   <SectionWrapper>
                     <LeftCol>

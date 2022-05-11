@@ -1,13 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import Contact from 'components/Forms/Contact';
 import React from "react"
 
 
 export default function index() {
   return (
     <>
-      <footer className="pt-4 pb-8 bg-[#a19183] xl:pt-24 xl:pb-24">
-        <div className="max-w-screen-lg px-4 mx-auto text-white xl:max-w-screen-xl sm:px-6 md:px-8">
-          <ul className="flex flex-col flex-wrap justify-center pb-8 text-lg md:flex-row">
+      <footer className="pt-4 pb-8 bg-[#eeede8] xl:pt-24 xl:pb-24">
+      <Contact />
+        <div className="max-w-screen-lg px-4 mx-auto text-white xl:max-w-screen-xl sm:px-6 md:px-8 text-black">
+          {/* <ul className="flex flex-col flex-wrap justify-center pb-8 text-lg md:flex-row">
             <li className="w-full my-12 md:w-1/3 lg:w-1/3">
               <div className="text-center">
                 <h2 className="mb-4 text-2xl text-white uppercase md:text-md font-millerLight">
@@ -79,8 +81,9 @@ export default function index() {
                 </ul>
               </div>
             </li>
-          </ul>
-          <hr className="flex items-center justify-between w-full pt-8 mx-auto border-t border-white" />
+          </ul> */}
+          
+          {/* <hr className="flex items-center justify-between w-full pt-8 mx-auto border-t border-white" /> */}
           <div className="flex items-center justify-between max-w-xs mx-auto ">
             <a href="https://www.facebook.com/vincentybanezphotography" target="_blank" rel="noreferrer" >
             <i className="fa-brands fa-facebook"></i>
@@ -96,8 +99,8 @@ export default function index() {
             </a>
             
           </div>
-          <div className="flex items-center justify-center pt-10 font-light text-center sm:pt-12">
-            ©2022 COPYRIGHT DAVINCECODE. ALL RIGHTS RESERVED.
+          <div className="flex items-center justify-center pt-10 font-light text-center sm:pt-">
+            <small>©2022 COPYRIGHT DAVINCECODE. ALL RIGHTS RESERVED.</small>
           </div>
         </div>
       </footer>
