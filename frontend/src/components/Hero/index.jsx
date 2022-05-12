@@ -21,12 +21,12 @@ export default function Index() {
               <p className="text-lg font-millerLight">If you're interested in working together, please reach out! I'd
                 love to chat about your next project.</p>
             </div>
-            <span className='flex flex-row gap-6'>
+            <span className='flex flex-row gap-2'>
             <a href="#experience">
-              <Button>LEARN MORE</Button>
+              <Button data-aos="fade-up">LEARN MORE</Button>
             </a>
-            <a href="#experience">
-              <Button>DOWNLOAD CV</Button>
+            <a href="images/Resume_Vincent_Ybanez_dev.pdf" target="_blank" >
+              <Button data-aos="fade-up">DOWNLOAD CV</Button>
               </a>
             </span>
           </div>

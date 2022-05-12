@@ -3,14 +3,13 @@ import {
   SectionH2,
   SectionContainer,
   SectionPadding,
-  ContainerWrapper
 } from "styles/GlobalStyles"
 
 export default function index() {
   return (
     <>
-      <div className='w-screen' id="experience">
-      <ContainerWrapper>
+      {/* <div className='' id="experience"> */ }
+      
         <SectionContainer className='bg-[#a19183]'>
           <SectionPadding>
             <SectionH2 data-aos="fade-up" className='text-white'>
@@ -19,8 +18,7 @@ export default function index() {
             </SectionH2>
           </SectionPadding>
         </SectionContainer>
-      </ContainerWrapper>
-      </div>
+      {/* </div> */}
     </>
   )
 }

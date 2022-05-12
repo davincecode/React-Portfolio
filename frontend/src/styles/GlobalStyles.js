@@ -113,7 +113,7 @@ export const FeatureContainer = styled.div`
 
 ///////////////////////////// 1 x 2 Box Wrappers /////////////////////////////
 export const ContainerWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center w-full h-full`}
+  ${tw`flex flex-col items-center justify-center`}
 `
 export const WorkBoxWrapper = styled.div`
   ${tw`flex flex-col items-center justify-center h-full p-0 md:w-5/6 xl:w-3/5 md:flex-row`}
@@ -189,7 +189,7 @@ export const WrapperOneMobile = styled.div`
 
 //////////////////////////////////// CLEANUP  ////////////////////////////////////
 export const SectionContainer = styled.div`
-  ${tw`flex items-center justify-center w-full`}
+  ${tw`flex items-center justify-center`}
 `
 
 export const SectionPadding = styled.div`
