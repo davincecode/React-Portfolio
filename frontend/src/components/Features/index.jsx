@@ -23,11 +23,10 @@ export default function index() {
         <WrapperOne>
           <WrapperTwo>
             <SectionTextWhite data-aos="fade">
-              CREATING simplicity and positivity through thoughtfully DESIGNED
-              SPACES
+            A website is a unique way to connect with the world.
               <ItemCenter data-aos="fade-up">
                 <Link to="/recent">
-                  <Button>RECENT WORK</Button>
+                  <Button>MORE PROJECTS</Button>
                 </Link>
               </ItemCenter>
             </SectionTextWhite>

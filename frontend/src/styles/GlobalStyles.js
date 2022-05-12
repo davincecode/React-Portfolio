@@ -65,7 +65,7 @@ export const WrapperOne = styled.div`
   ${tw`flex justify-center w-full h-[50vh]`}
 `
 export const WrapperForm = styled.div`
-  ${tw`flex justify-center w-full h-[100vh] md:h-[70vh]`}
+  ${tw`flex justify-center w-full h-[70vh]`}
 `
 export const WrapperOneStart = styled.div`
   ${tw`flex justify-start w-full h-[100vh]`}
@@ -113,10 +113,10 @@ export const FeatureContainer = styled.div`
 
 ///////////////////////////// 1 x 2 Box Wrappers /////////////////////////////
 export const ContainerWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center w-full h-full  mb-5`}
+  ${tw`flex flex-col items-center justify-center w-full h-full`}
 `
 export const WorkBoxWrapper = styled.div`
-  ${tw`flex flex-col items-center justify-center h-full p-0 md:w-5/6 xl:w-3/5 md:flex-row border-2 border-gray-300`}
+  ${tw`flex flex-col items-center justify-center h-full p-0 md:w-5/6 xl:w-3/5 md:flex-row`}
 `
 export const WorkLeftBox = styled.div`
   ${tw`relative flex items-center justify-center object-fill w-full h-full`}
@@ -139,7 +139,7 @@ export const SectionH1 = styled.div`
   ${tw`flex p-8 text-3xl leading-relaxed tracking-wide font-millerLight`}
 `
 export const SectionH2 = styled.div`
-  ${tw`flex text-xl text-center md:text-2xl md:tracking-wide md:leading-loose font-millerLight`}
+  ${tw`flex text-xl justify-center text-center md:text-2xl md:tracking-wide md:leading-loose font-millerLight py-8`}
 `
 export const H2Left = styled.div`
   ${tw`flex text-2xl items-start my-4 lg:my-0 md:tracking-wide md:leading-loose font-millerLight`}
@@ -193,7 +193,7 @@ export const SectionContainer = styled.div`
 `
 
 export const SectionPadding = styled.div`
-  ${tw` py-20 md:py-12 lg:p-16 w-3/4`}
+  ${tw` py-20 md:py-12 lg:py-16 w-3/4`}
 `
 //this requires CenteredTitle
 export const DivColumn = styled.div`

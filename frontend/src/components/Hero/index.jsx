@@ -9,10 +9,10 @@ export default function Index() {
           <div className="w-[400px]">
           <img className="flex-1 " src="/images/motor.jpg" data-aos="fade" />
           </div>
-          <div className="flex-wrap items-center justify-center w-full p-8 text-2xl tracking-wide md:w-2/5 md:text-2xl md:p-0 lg:text-3xl md:leading-loose z-10" data-aos="fade-left">
-          <h1 className='font-millerItalicLight mb-8'>Hello! My name is Vince!</h1>
+          <div className="z-10 flex-wrap items-center justify-center w-full p-8 text-2xl tracking-wide md:w-2/5 md:text-2xl md:p-0 lg:text-3xl md:leading-loose" data-aos="fade-left">
+          <h1 className='mb-8 font-millerItalicLight'>Hello! My name is Vince!</h1>
             <div>
-              <p className="text-lg font-millerLight mb-8">A
+              <p className="mb-8 text-lg font-millerLight">A
               creative and detail-oriented, Full-stack software developer
               devoted to crafting beautiful web experiences focused on
               simplicity and function. A Strong communicator with the ability to
