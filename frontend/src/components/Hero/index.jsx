@@ -30,12 +30,7 @@ export default function Index() {
               </a>
             </span>
           </div>
-          {/* <div>
-          <img
-            className="w-[400px] absolute right-32 top-2/4 z-0 hidden md:hidden lg:block"
-            src="/images/art.jpg"
-            />
-            </div> */}
+        
         </HeroElements>
       </FullContainer>
     </>
