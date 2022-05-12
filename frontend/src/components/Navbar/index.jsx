@@ -48,7 +48,7 @@ export default function Header() {
                 <Link to="/about">ABOUT</Link>
               </li> */}
               <li className="my-8 uppercase font-millerLight">
-                <Link to="/recent">RECENT WORK</Link>
+                <Link to="/recent">PROJECTS</Link>
               </li>
               {/* <li className="my-8 uppercase font-millerLight">
                 <Link to="/shop">SHOP</Link>
@@ -64,7 +64,7 @@ export default function Header() {
         {/* Desktop */}
         <NavLinks className="hidden DESKTOP-MENU lg:flex">
             {/* <Link to="/about">ABOUT</Link> */}
-            <Link to="/recent">RECENT WORK</Link>
+            <Link to="/recent">PROJECTS</Link>
             {/* <Link to="/shop">SHOP</Link> */}
             <Link to="/contact">CONTACT</Link>
         </NavLinks>

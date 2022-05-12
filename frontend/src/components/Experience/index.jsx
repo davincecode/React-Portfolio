@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Projects } from 'components/Projects';
+import { Projects } from 'components/Projects/Projects';
 import React from "react"
 import {
   ContainerWrapper,

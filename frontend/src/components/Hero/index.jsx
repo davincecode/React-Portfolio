@@ -21,9 +21,14 @@ export default function Index() {
               <p className="text-lg font-millerLight">If you're interested in working together, please reach out! I'd
                 love to chat about your next project.</p>
             </div>
+            <span className='flex flex-row gap-6'>
             <a href="#experience">
               <Button>LEARN MORE</Button>
             </a>
+            <a href="#experience">
+              <Button>DOWNLOAD CV</Button>
+              </a>
+            </span>
           </div>
           {/* <div>
           <img
