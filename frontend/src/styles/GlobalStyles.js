@@ -102,9 +102,6 @@ export const LeftNav = styled.div`
 export const RigthNav = styled.div`
   ${tw`flex flex-col items-center justify-between h-auto`}
 `
-// export const RigthNav = styled.div`
-//   ${tw`flex flex-row text-sm font-millerLight items-center justify-center`}
-// `
 
 ///////////////////////////// FEATURE COMPONENTS /////////////////////////////
 export const FeatureContainer = styled.div`
@@ -205,5 +202,3 @@ export const AboutP = styled.div`
 export const XP = styled.div`
   ${tw`flex flex-col text-justify text-base p-0 md:w-3/4 lg:p-0 lg:w-1/2 border-2 border-black`}
 `
-
-// flex-wrap items-center justify-center p-4 text-xl w-full min-h-full md:w-5/6 md:p-12 lg:p-0 lg:w-2/5 lg:text-lg font-millerLight lg:leading-loose border-2 border-black

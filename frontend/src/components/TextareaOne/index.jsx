@@ -7,10 +7,8 @@ import {
 
 export default function index() {
   return (
-    <>
-      {/* <div className='' id="experience"> */ }
-      
-        <SectionContainer className='bg-[#a19183]'>
+    <>    
+        <SectionContainer className='bg-[#a19183]' id="experience">
           <SectionPadding>
             <SectionH2 data-aos="fade-up" className='text-white'>
                 Having to work with clients on web projects from ideation to launch,<br />
@@ -18,7 +16,6 @@ export default function index() {
             </SectionH2>
           </SectionPadding>
         </SectionContainer>
-      {/* </div> */}
     </>
   )
 }

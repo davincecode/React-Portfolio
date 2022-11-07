@@ -44,15 +44,9 @@ export default function Header() {
             {/* Mobile */}
             <RigthNav>
             <ul className="">
-              {/* <li className="my-8 uppercase font-millerLight">
-                <Link to="/about">ABOUT</Link>
-              </li> */}
               <li className="my-8 uppercase font-millerLight">
                 <Link to="/recent">PROJECTS</Link>
               </li>
-              {/* <li className="my-8 uppercase font-millerLight">
-                <Link to="/shop">SHOP</Link>
-              </li> */}
               <li className="my-8 uppercase font-millerLight">
                 <Link to="/contact">CONTACT</Link>
               </li>
@@ -63,9 +57,7 @@ export default function Header() {
 
         {/* Desktop */}
         <NavLinks className="hidden DESKTOP-MENU lg:flex">
-            {/* <Link to="/about">ABOUT</Link> */}
             <Link to="/recent">PROJECTS</Link>
-            {/* <Link to="/shop">SHOP</Link> */}
             <Link to="/contact">CONTACT</Link>
         </NavLinks>
       </nav>

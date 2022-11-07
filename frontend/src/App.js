@@ -13,7 +13,7 @@ import Home from "pages/Home"
 
 const App = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 })
+    Aos.init({ duration: 2000 })
   }, [])
   return (
     <>
